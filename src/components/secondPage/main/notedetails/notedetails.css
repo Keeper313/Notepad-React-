@@ -1,0 +1,57 @@
+.note_detail {
+    display: flex;
+    border: 1px solid black;
+    margin: 5px 40px;
+    border-radius: 45px;
+
+}
+
+.note_detail h2 {
+    margin: 20px 40px;
+    font-size: 40px;
+}
+
+.note_detail textarea {
+    resize: none;
+    border: none;
+    outline: none;
+    user-select: text;
+    margin: 20px 40px 45px 40px;
+}
+
+.note_detail div ul {
+    display: flex;
+    flex-direction: column;
+    margin: 110px 60px 20px 0px;
+    justify-content: space-between;
+    height: 85%
+}
+
+.note_detail button {
+    margin: 15px 0px;
+    width: 200px;
+    height: 30px;
+    border-radius: 6px;
+}
+
+.note_detail p {
+    display: flex;
+    align-items: flex-end;
+    margin: 50px;
+}
+
+.note_detail li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.button_active {
+    color: white;
+    background: black;
+}
+
+.button_inactive {
+    color: black;
+    background: white;
+}

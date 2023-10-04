@@ -1,0 +1,19 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10px;
+}
+header a{
+    margin: 0px 50px;  
+}
+header a img{
+    border: 1px solid black;
+    height: 50px;
+}
+
+.settings{
+    height: 50px;
+    margin: 0px 50px;
+    cursor: pointer;
+}

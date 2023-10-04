@@ -1,0 +1,66 @@
+.note_List {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding: 0px 50px;
+    margin-top: 60px;
+
+}
+
+.notepad_block {
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 30px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.notepad_block h2 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.notepad_block p {
+    margin: 10px 15px;
+    height: 100px;
+    max-height: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    user-select: none;
+    cursor: pointer;
+}
+
+.notepad_block span {
+    padding: 8px 20px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid black
+}
+
+.notepad_block ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+    margin-top: 8px;
+    border-bottom: 1px solid black;
+}
+
+.notepad_block li {
+    list-style-type: none;
+}
+
+.deleted_notate {
+    border: 1px solid black;
+    font-size: 25px;
+    padding: 5px;
+    cursor: pointer;
+}
+.deleted_notate:hover {
+    background: black;
+    color: white;
+}
